@@ -1,3 +1,4 @@
+
 import os
 import glob
 import json
@@ -7,7 +8,7 @@ def combineJsonFiles(globFilePattern, outputJsonFilename):
     combineJsonFiles
     combines all files defined by <globFilePattern> into <outputJsonFilename>
     
-    Author: Kurt Hagen
+    @author: Kurt Hagen
     """
      
     print("combineJsonFiles to output JSON file \"" + outputJsonFilename + "\"")

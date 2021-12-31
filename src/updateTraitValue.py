@@ -10,7 +10,7 @@ def updateTraitValue(globFilePattern, trait, fromValue, toValue, fromValueCaseSe
      optional  outputDir write all files (changed or unchanged) to this existing directory (relative or absolute)
                otherwise files as per globFilePattern are overwritten    
     
-    Author: Kurt Hagen
+    @author: Kurt Hagen
     """
      
     print("updateTraitValue \"" + trait + "\""

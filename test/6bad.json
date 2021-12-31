@@ -1,0 +1,12 @@
+{
+    "image": "https://storage/images/5.png",
+    "tokenId": 5,
+    "name": "Caturday Cat #0005",
+    "description": "Caturday Tales is a collection of randomly generated NFTs",
+    "attributes": [
+        {
+            "trait_type2": "Personality",
+            "value2": "Lazy"
+        }
+    ]
+}

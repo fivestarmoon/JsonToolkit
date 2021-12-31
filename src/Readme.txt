@@ -30,3 +30,4 @@ combineJsonFiles.py
     	combines all files defined by <globFilePattern> into <outputJsonFilename> (relative or absolute)
     example
     	combineJsonFiles(globFilePattern="*.json", outputJsonFilename="combine.json")
+    	

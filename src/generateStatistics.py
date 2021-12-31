@@ -6,7 +6,7 @@ def generateStatistics(globFilePattern, outputJsonFilename):
     generateStatistics
     generate the trait type and value counts from files defined by <globFilePattern>
     
-    Author: Kurt Hagen
+    @author: Kurt Hagen
     """
      
     print("generateStatistics to output JSON file \"" + outputJsonFilename + "\"")
