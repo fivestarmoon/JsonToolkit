@@ -19,6 +19,12 @@ updateDescription.py
    	example
    		updateDescription(globFilePattern="*.json", newDescription="New Description", outputDir="updated")
 
+updateImageUrlBaseString.py
+   	updateImageUrlBaseString(globFilePattern, newUrlBaseString, outputDir=None)
+   		newUrlBaseString	update all "image" URL strings up to the last "/" with newUrlBaseString
+   	example
+   		updateImageUrlBaseString(globFilePattern="*.json", newUrlBaseString="https://storage")
+
 generateStatistics.py
     generateStatistics(globFilePattern, outputJsonFilename)
     	outputJsonFilename	update the JSON formatted statistics to this file (relative or absolute)
